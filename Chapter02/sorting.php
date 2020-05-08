@@ -1,11 +1,18 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<meta charset="utf-8"/>
 	<title>Sorting Arrays</title>
+	<style type="text/css">
+		.table {
+			border: 0px;
+			display: flex;
+			justify-content: center;
+		}
+	</style>
 </head>
 <body>
-<table border="0" cellspacing="3" cellpadding="3" align="center">
+<table class="table" cellspacing="3" cellpadding="3">
 	<tr>
 		<td><h2>Rating</h2></td>
 		<td><h2>Title</h2></td>
@@ -30,7 +37,7 @@ foreach ($movies as $title => $rating) {
 }
 
 // Display the movies sorted by title:
-ksort($movies);
+sort($movies);
 echo '<tr><td colspan="2"><b>Sorted by title:</b></td></tr>';
 foreach ($movies as $title => $rating) {
 	echo "<tr><td>$rating</td>

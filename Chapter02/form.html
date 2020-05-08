@@ -1,12 +1,16 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<meta charset="utf-8"/>
 	<title>Simple HTML Form</title>
 	<style type="text/css" title="text/css" media="all">
 	label {
 		font-weight: bold;
 		color: #300ACC;
+	}
+	.submit {
+		display: flex;
+		justify-content: center;
 	}
 	</style>
 </head>
@@ -34,7 +38,7 @@
 	
 	</fieldset>
 	
-	<p align="center"><input type="submit" name="submit" value="Submit My Information" /></p>
+	<p class="submit"><input type="submit" name="submit" value="Submit My Information" /></p>
 
 </form>
 

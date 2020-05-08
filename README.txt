@@ -40,3 +40,24 @@ ISBN: 978-7-115-29940-6
 
 
 Chapter01   第1章 PHP概述
+    01. first.php                                           ===> 一个基本的PHP脚本框架
+    02. second.php                                          ===> 使用 echo 函数
+    03. comments.php                                        ===> 注释的使用
+    04. predefined.php                                      ===> 打印预定义的变量
+    05. strings.php                                         ===> 字符串的使用
+    06. constants.php                                       ===> 常量的使用
+    07. quotes.php                                          ===> 双引号与单引号的用法区别
+
+Chapter02   第2章 PHP编程
+    01. form.html                                           ===> 表单页面
+    02. script_02_02/handle_form.php                        ===> 处理form.html的表单的页面
+    03. script_02_03/handle_form.php                        ===> if语句的使用
+    04. handle_form.php                                     ===> 使用$_POST获取表单数据
+    05. script_02_06/calendar.php                           ===> foreach与数组的使用
+    06. multi.php                                           ===> 多维数组的使用
+    07. sorting.php                                         ===> 对数组进行排序
+    08. calendar.php                                        ===> for循环的使用
+
+Chpater03   第3章 创建动态Web站点
+    01. index.php                                           ===> 多文件的使用
+    
