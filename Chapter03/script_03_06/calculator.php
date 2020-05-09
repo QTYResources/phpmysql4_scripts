@@ -1,7 +1,7 @@
 <?php # Script 3.6 - calculator.php #2
 
 $page_title = 'Trip Cost Calculator';
-include ('includes/header.html');
+include ('/includes/header.html');
 
 // Check for form submission:
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
@@ -46,4 +46,4 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 	<p><input type="submit" name="submit" value="Calculate!" /></p>
 </form>
 
-<?php include ('includes/footer.html'); ?>
+<?php include ('/includes/footer.html'); ?>

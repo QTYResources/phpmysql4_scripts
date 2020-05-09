@@ -59,5 +59,18 @@ Chapter02   第2章 PHP编程
     08. calendar.php                                        ===> for循环的使用
 
 Chpater03   第3章 创建动态Web站点
-    01. index.php                                           ===> 多文件的使用
-    
+    01. index.html                                          ===> 用于本章的Web页面的HTML模板
+    02. include/header.html                                 ===> 初始HTML代码的头部
+    03. include/footer.html                                 ===> 初始HTML代码的底部
+    04. include/style.css                                   ===> 初始HTML代码的样式
+    05. script_03_04/index.php                              ===> 使用include实现01页面
+    06. script_03_05/calculator.php                         ===> 简单的表单并处理表单数据
+    07. script_03_06/calculator.php                         ===> 设置表单默认值
+    08. index.php                                           ===> 函数的使用
+    09. script_03_08/calculator.php                         ===> 带参数的函数的使用
+    10. script_03_09/calculator.php                         ===> 带默认参数的函数的使用
+    11. calculator.php                                      ===> 有返回值的函数
+
+Chapter04   第4章 MySQL简介
+
+
